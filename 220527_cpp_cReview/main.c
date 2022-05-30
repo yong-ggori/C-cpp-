@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <string.h>
+
 typedef struct student {
 	int studentID;
 	char name[20];
@@ -7,6 +8,7 @@ typedef struct student {
 }Student;
 
 void print_st(Student*);
+void save_st(Student*);
 void input_st(Student*);
 
 int main(void) {
